@@ -1,0 +1,69 @@
+baseURL = 'https://cessna.io'
+title = 'cessna.io'
+copyright = "2024. "
+languageCode = 'en-US'
+defaultContentLanguage = "en"
+hasCJKLanguage = true
+enableInlineShortcodes = true
+enableRobotsTXT = true
+enableEmoji = true
+enableGitInfo = true
+theme = "hugo_theme_windy"
+
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.116.0"
+  [[module.mounts]]
+    source = 'assets'
+    target = 'assets'
+  [[module.mounts]]
+    source = 'static'
+    target = 'static'
+  [[module.mounts]]
+    source = 'node_modules/mathjax' # Specify a proper directory for node_modules.
+    target = 'assets/mathjax'
+  [[module.mounts]]
+    source = 'node_modules/mathjax/es5' # Specify a proper directory for node_modules.
+    target = 'static/mathjax/es5'
+  [[module.mounts]]
+    source = 'node_modules/@fortawesome/fontawesome-free'
+    target = 'assets/fontawesome'
+
+
+
+
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    disable = true
+  [privacy.instagram]
+    disable = true
+  [privacy.twitter]
+    disable = true
+  [privacy.vimeo]
+    disable = true
+  [privacy.youtube]
+    disable = true
+
+
+
+[markup]
+  [markup.highlight]
+    # lineNos = true
+    noClasses = false
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.cjk]
+        enable = true
+        eastAsianLineBreaks = true
+        escapedSpace = true
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
