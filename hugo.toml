@@ -1,4 +1,17 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://cessna.io/'
 languageCode = 'en-us'
 title = 'cessna.io'
-theme = 'monochrome'
+theme = 'hugo_theme_windy'
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      strikethrough = false
+      [markup.goldmark.extensions.extras]
+        [markup.goldmark.extensions.extras.delete]
+          enable = true
+        [markup.goldmark.extensions.extras.subscript]
+          enable = true
+
+

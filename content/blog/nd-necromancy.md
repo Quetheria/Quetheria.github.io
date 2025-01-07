@@ -120,6 +120,17 @@ that this occurred organically, and within the bounds of a card game about wizar
 
 
 
+#### Credits and Citations:
+All cards are sourced from Scryfall, and copyright of Wizards of the Coast and their respective artists, those being;
+Izzy for Deceiver Exarch and Sharuum the Hegemon,
+Goran Josic for Splinter Twin,
+Jesper Myrfors for Grim Monolith,
+David Martin for Mesmeric Orb,
+Mark Tedin for Emrakul the Aeons Torn,
+Kev Walker for Dread Return,
+and Stephen Tappin for Blasting Station.
+
+
 
 
 
@@ -131,16 +142,5 @@ that this occurred organically, and within the bounds of a card game about wizar
 [^6]: The Four Horseman on MTGSalvation: https://www.mtgsalvation.com/forums/the-game/legacy-type-1-5/developing-legacy/181684-deck-the-four-horsemen
 [^7]: Blue-Red Splinter Twin by Brian Braun-duin: https://www.mtggoldfish.com/deck/321379
 [^8]: Slow Play: https://blogs.magicjudges.org/rules/ipg3-3/
-
-
-#### Credits and Citations:
-All cards are copyright of Wizards of the Coast and their artists, those being;
-Izzy for Deceiver Exarch and Sharuum the Hegemon,
-Goran Josic for Splinter Twin,
-Jesper Myrfors for Grim Monolith,
-David Martin for Mesmeric Orb,
-Mark Tedin for Emrakul the Aeons Torn,
-Kev Walker for Dread Return,
-and Stephen Tappin for Blasting Station.
 
 
