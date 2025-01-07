@@ -1,3 +1,3 @@
-[submodule "themes/hugo-theme-monochrome"]
-	path = themes/hugo-theme-monochrome
-	url = https://github.com/kaiiiz/hugo-theme-monochrome.git
+[submodule "themes/hugo_theme_windy"]
+	path = themes/hugo_theme_windy
+	url = https://github.com/zEttOn86/hugo_theme_windy.git
