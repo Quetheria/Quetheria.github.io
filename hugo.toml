@@ -1,17 +1,23 @@
 baseURL = 'https://cessna.io/'
 languageCode = 'en-us'
 title = 'cessna.io'
-theme = 'hugo_theme_windy'
+theme = 'hugo-theme-nightfall'
 
+[params]
+user = 'micah'
+hostname = 'cessna.io'
 
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.extensions]
-      strikethrough = false
-      [markup.goldmark.extensions.extras]
-        [markup.goldmark.extensions.extras.delete]
-          enable = true
-        [markup.goldmark.extensions.extras.subscript]
-          enable = true
+  [params.author]
+    name = "Micah Cessna"
 
+[menu]
+  [[menu.header]]
+    name = "blog"
+    weight = 0
+    url = "/blog"
+
+  [[menu.header]]
+    name = "about"
+    weight = 1
+    url = "about"
 
